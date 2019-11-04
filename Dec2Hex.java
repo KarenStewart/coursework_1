@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 class Dec2Hex
 {
 
@@ -18,6 +19,12 @@ class Dec2Hex
                 System.err.println("Argument" + args[0] + " must be an integer.");
                 System.exit(1);
             }
+	}
+	else (args.length < 0) 
+	{
+		System.err.println("Argument" + " error! must enter a valid number.");
+                System.exit(1);
+		
         }
 
     	char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
