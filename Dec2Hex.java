@@ -20,9 +20,9 @@ class Dec2Hex
                 System.exit(1);
             }
 	}
-	else if (args.length == 0); 
+	else
 	{
-		System.out.println(" error! must enter a valid number.");
+		System.err.println(" error! must enter a valid number.");
                 System.exit(1);
 	    }
 		
